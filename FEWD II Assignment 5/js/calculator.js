@@ -5,23 +5,27 @@ var $ = function (id) {
     return window.document.getElementById(id);
 };
 
+/*
 function init() {
     "use strict";
     document.getElementById("calculator").addEventListener("click", init {
-        function enter() {}
+        enter($("result"));
+    });
+}*/
+
+function init() {
+    "use strict";
+    var test = window.document.getElementById("calculator");
+    test.addEventListener("click", function () {
+        enter($("result"));
     });
 }
+
+window.addEventListener("load", init);
 
 function enter() {
     "use strict";
-    document.getElementById("result")
-}
-
-function init() {
-    "use strict";
-    document.getElementById("calculator").addEventListener("click", init {
-        enter();
-    });
+    document.getElementById("result");
 }
 
 function calculate() {
