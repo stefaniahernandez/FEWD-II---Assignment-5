@@ -54,12 +54,12 @@ window.document.getElementById("button4").addEventListener("click", function (e)
 });
 */
 //STEP 8
-access.addEventListener("click", function () {
-    var output = window.opener.document.getElementById("connect");
-})
-
+//access.addEventListener("click", function () {
+//    var output = window.opener.document.getElementById("connect");
+//});
+/*
 function popUp() {
-    "use strct";
+    "use strict";
     var button5 = window.document.getElementById("button5");
     button5.addEventListener("click", function () {
         window.open("newpage.html", "", "width=300", "height=300");
@@ -68,8 +68,8 @@ function popUp() {
         });
     });
 }
-
-window.addEventListener("load", popUp)
+window.addEventListener("load", popUp);
+*/
 //STEP 9
 
 //STEP 10
